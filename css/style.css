@@ -1,0 +1,19 @@
+body {
+  width: 100%;
+  min-width: 1000px; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.header {
+  width: 100%; }
+
+.navbar__links {
+  background-color: #dcdcdc; }
+
+.navbar-belt {
+  margin-left: 135px;
+  margin-right: 135px; }
+
+/*# sourceMappingURL=style.css.map */
