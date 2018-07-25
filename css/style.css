@@ -14,7 +14,8 @@ ul {
   background-color: rgba(220, 220, 220, 0.25);
   height: 37px; }
 
-.navbar-belt {
+.navbar-belt,
+.navbar-header {
   margin-left: 135px;
   margin-right: 135px; }
 
