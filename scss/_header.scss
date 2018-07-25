@@ -57,19 +57,27 @@ hr {
   margin-top: 15px;
 }
 .menu-item {
-  margin-right: 152px;
   font-size: remy(14px);
   font-weight: 700;
   text-transform: uppercase;
+  height: remy(40px);
+  padding-right: 77px;
+  padding-left: 76px;
 
   a {
     color: #191919;
+    padding: 0 !important;
+
+    &:hover {
+      color: #fff;
+      background-color: #810c30 !important;
+    }
+  }
+
+  &:hover {
+    background-color: #810c30 !important;
   }
 }
-.menu-item:last-child {
-  margin-right: 77px;
-}
 .menu {
-  margin-left: 135px;
-  margin-right: 135px;
+  margin: 23px 135px 30px 135px;
 }
