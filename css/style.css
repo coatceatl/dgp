@@ -12,10 +12,12 @@ ul {
 
 .navbar__links {
   background-color: rgba(220, 220, 220, 0.25);
+  padding-top: 7px;
+  padding-bottom: 7px;
   height: 37px; }
 
 .navbar-belt,
-.navbar-header {
+.navbar__header {
   margin-left: 135px;
   margin-right: 135px; }
 
@@ -24,7 +26,9 @@ ul {
   font-weight: 400;
   text-decoration: underline; }
   .navbar-belt__item a {
-    color: #333333; }
+    color: #333333;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important; }
 
 .black {
   background-color: #191919;
@@ -35,5 +39,25 @@ ul {
 
 .navbar-belt__icons {
   margin-right: 3px; }
+
+.navbar-logo {
+  margin-top: 26px; }
+
+.phones {
+  margin-top: 34px; }
+  .phones .col-lg-5,
+  .phones .col-lg-4 {
+    padding-left: 0; }
+
+.phone-text {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff8288; }
+
+.phone-number {
+  color: #333333;
+  font-size: 1rem;
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */

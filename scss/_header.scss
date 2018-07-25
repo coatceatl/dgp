@@ -3,10 +3,12 @@
 }
 .navbar__links {
   background-color: rgba(220,220,220,.25);
+  padding-top: 7px;
+  padding-bottom: 7px;
   height: 37px;
 }
 .navbar-belt,
-.navbar-header {
+.navbar__header {
   margin-left: 135px;
   margin-right: 135px;
 }
@@ -17,6 +19,8 @@
 
   a {
     color: #333333;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
   }
 }
 .black {
@@ -28,4 +32,26 @@
 }
 .navbar-belt__icons {
   margin-right: 3px;
+}
+.navbar-logo {
+  margin-top: 26px;
+}
+.phones {
+  margin-top: 34px;
+
+  .col-lg-5,
+  .col-lg-4 {
+    padding-left: 0;
+  }
+}
+.phone-text {
+  font-size: remy(12px);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ff8288;
+}
+.phone-number {
+  color: #333333;
+  font-size: remy(16px);
+  font-weight: 400;
 }
