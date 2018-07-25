@@ -1,6 +1,7 @@
 body {
   width: 100%;
-  min-width: 1000px; }
+  min-width: 1000px;
+  font-family: 'PT Sans', sans-serif; }
 
 ul {
   margin: 0;
@@ -10,10 +11,28 @@ ul {
   width: 100%; }
 
 .navbar__links {
-  background-color: #dcdcdc; }
+  background-color: rgba(220, 220, 220, 0.25);
+  height: 37px; }
 
 .navbar-belt {
   margin-left: 135px;
   margin-right: 135px; }
+
+.navbar-belt__item {
+  font-size: 0.8125rem;
+  font-weight: 400;
+  text-decoration: underline; }
+  .navbar-belt__item a {
+    color: #333333; }
+
+.black {
+  background-color: #191919;
+  color: #fff;
+  height: 23px;
+  border-radius: 25px;
+  padding: 0 10px; }
+
+.navbar-belt__icons {
+  margin-right: 3px; }
 
 /*# sourceMappingURL=style.css.map */

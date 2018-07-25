@@ -1,6 +1,11 @@
+@function remy($value) {
+  @return ($value / 16px) *1rem;
+}
+
 body {
   width: 100%;
   min-width: 1000px;
+  font-family: 'PT Sans', sans-serif;
 }
 ul {
   margin: 0;
