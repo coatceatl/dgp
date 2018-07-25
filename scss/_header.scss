@@ -34,15 +34,10 @@
   margin-right: 3px;
 }
 .navbar-logo {
-  margin-top: 26px;
+  margin-top: 10px;
 }
 .phones {
   margin-top: 34px;
-
-  .col-lg-5,
-  .col-lg-4 {
-    padding-left: 0;
-  }
 }
 .phone-text {
   font-size: remy(12px);
@@ -54,4 +49,27 @@
   color: #333333;
   font-size: remy(16px);
   font-weight: 400;
+}
+hr {
+  background-color: #000000;
+  height: 1px;
+  opacity: 0.15;
+  margin-top: 15px;
+}
+.menu-item {
+  margin-right: 152px;
+  font-size: remy(14px);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  a {
+    color: #191919;
+  }
+}
+.menu-item:last-child {
+  margin-right: 77px;
+}
+.menu {
+  margin-left: 135px;
+  margin-right: 135px;
 }
