@@ -67,15 +67,16 @@ hr {
   margin-top: 15px; }
 
 .menu-item {
-  font-size: 0.875rem;
-  font-weight: 700;
   text-transform: uppercase;
   height: 2.5rem;
   padding-right: 77px;
   padding-left: 76px; }
   .menu-item a {
     color: #191919;
-    padding: 0 !important; }
+    padding: 0 !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 700; }
     .menu-item a:hover {
       color: #fff;
       background-color: #810c30 !important; }

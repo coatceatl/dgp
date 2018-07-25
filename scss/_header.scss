@@ -57,8 +57,6 @@ hr {
   margin-top: 15px;
 }
 .menu-item {
-  font-size: remy(14px);
-  font-weight: 700;
   text-transform: uppercase;
   height: remy(40px);
   padding-right: 77px;
@@ -67,6 +65,9 @@ hr {
   a {
     color: #191919;
     padding: 0 !important;
+    font-family: 'PT Sans', sans-serif;
+    font-size: remy(14px);
+    font-weight: 700;
 
     &:hover {
       color: #fff;
