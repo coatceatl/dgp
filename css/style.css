@@ -41,6 +41,23 @@ ul {
   text-transform: uppercase;
   margin-bottom: 17px; }
 
+.form-input {
+  background-color: #fff;
+  border: 1px solid #ededed;
+  padding: 13px 54px 11px 17px;
+  border-radius: 15px;
+  line-height: 14px; }
+
+.form-btn {
+  background-color: #810c30;
+  background-image: linear-gradient(-186deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 49%, rgba(255, 255, 255, 0.1) 51%, rgba(255, 255, 255, 0.1) 100%);
+  padding: 15px 47px 15px 78px;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff; }
+
 .header {
   width: 100%; }
 
@@ -166,5 +183,8 @@ hr {
 
 .registration {
   background-color: #f6f6f6; }
+
+.sidebar-offcanvas {
+  margin-top: 30px; }
 
 /*# sourceMappingURL=style.css.map */
