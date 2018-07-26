@@ -16,6 +16,31 @@ ul {
   margin-left: 135px;
   margin-right: 135px; }
 
+.heading {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #810c30; }
+
+.text {
+  color: #333333;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0; }
+
+.caption {
+  font-weight: 700; }
+
+.margin {
+  margin-bottom: 17px; }
+
+.uppercase {
+  padding-left: 15px;
+  text-transform: uppercase;
+  margin-bottom: 17px; }
+
 .header {
   width: 100%; }
 
@@ -130,5 +155,10 @@ hr {
 .list-group-item {
   background-color: #ff8288;
   box-shadow: 1px 1px 0 #ba7275; }
+
+.avatar {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=style.css.map */

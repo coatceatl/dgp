@@ -20,4 +20,29 @@ ul {
   margin-left: 135px;
   margin-right: 135px;
 }
+.heading {
+  font-size: remy(20px);
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #810c30;
+}
+.text {
+  color: #333333;
+  font-size: remy(15px);
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+.caption {
+  font-weight: 700;
+}
+.margin {
+  margin-bottom: 17px;
+}
+.uppercase {
+  padding-left: 15px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
 
