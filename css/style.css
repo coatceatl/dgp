@@ -10,6 +10,12 @@ ul {
 .container-fluid {
   padding: 0; }
 
+.navbar-belt,
+.navbar__header,
+.content {
+  margin-left: 135px;
+  margin-right: 135px; }
+
 .header {
   width: 100%; }
 
@@ -18,11 +24,6 @@ ul {
   padding-top: 7px;
   padding-bottom: 7px;
   height: 37px; }
-
-.navbar-belt,
-.navbar__header {
-  margin-left: 135px;
-  margin-right: 135px; }
 
 .navbar-belt__item {
   font-size: 0.8125rem;
@@ -125,5 +126,9 @@ hr {
   position: absolute;
   top: 50%;
   z-index: 10; }
+
+.list-group-item {
+  background-color: #ff8288;
+  box-shadow: 1px 1px 0 #ba7275; }
 
 /*# sourceMappingURL=style.css.map */
