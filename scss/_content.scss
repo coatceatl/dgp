@@ -1,6 +1,14 @@
-.list-group-item {
+a.list-group-item {
   background-color: #ff8288;
   box-shadow: 1px 1px 0 #ba7275;
+  color: #fff;
+  font-size: remy(13px);
+  font-weight: 700;
+  text-transform: uppercase;
+
+  img {
+    margin-right: 10px;
+  }
 }
 .avatar {
   float: left;
