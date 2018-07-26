@@ -1,3 +1,8 @@
+.list-group {
+  width: 260px;
+  position: absolute;
+  right: 0;
+}
 a.list-group-item {
   background-color: #ff8288;
   box-shadow: 1px 1px 0 #ba7275;
@@ -16,6 +21,9 @@ a.list-group-item {
   img {
     margin-right: 10px;
   }
+}
+.fl-left {
+  float: left;
 }
 .avatar {
   float: left;
@@ -55,5 +63,5 @@ a.list-group-item {
 .sidebar-caret {
   position: absolute;
   top: 18px;
-  right: 5px;
+  right: 31px;
 }
