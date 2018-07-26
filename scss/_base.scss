@@ -2,10 +2,35 @@
   @return ($value / 16px) *1rem;
 }
 
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PTS55F.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PT Sans';
+  src: url('../fonts/PTS75F.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Regular.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
 body {
   width: 100%;
   min-width: 1000px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans', serif;
 }
 ul {
   margin: 0;
