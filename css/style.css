@@ -218,4 +218,9 @@ a.list-group-item {
       .sidebar-dropdown li:hover a, .sidebar-dropdown li:focus a {
         background-color: #fff !important; }
 
+.sidebar-caret {
+  position: absolute;
+  top: 18px;
+  right: 5px; }
+
 /*# sourceMappingURL=style.css.map */
