@@ -78,3 +78,18 @@
     color: #fff !important;
   }
 }
+.footer-market-icon {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+
+  a {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+  }
+}
+

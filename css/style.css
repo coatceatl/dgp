@@ -529,4 +529,16 @@ a.list-group-gray {
 .footer-white a {
   color: #fff !important; }
 
+.footer-market-icon {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative; }
+  .footer-market-icon a {
+    position: absolute;
+    top: 20%;
+    left: 20%; }
+
 /*# sourceMappingURL=style.css.map */
