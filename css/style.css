@@ -34,8 +34,7 @@ a {
 .navbar__header,
 .navbar-menu,
 .content,
-.refer,
-.sources {
+.refer {
   margin-left: 135px;
   margin-right: 135px; }
 
@@ -414,7 +413,23 @@ a.list-group-gray {
   background-color: #000;
   opacity: 0.15; }
 
-.item-sources {
-  display: inline-block; }
+#carouselSources {
+  height: 197px; }
+  #carouselSources .carousel-inner.carousel-sources .item.item-sources {
+    display: inline-block;
+    height: 140px; }
+    #carouselSources .carousel-inner.carousel-sources .item.item-sources img {
+      min-width: auto !important;
+      height: auto !important; }
+
+.carousel-control-sources-left {
+  position: absolute;
+  left: -135px !important;
+  top: 30%; }
+
+.carousel-control-sources-right {
+  position: absolute;
+  right: 135px !important;
+  top: 30%; }
 
 /*# sourceMappingURL=style.css.map */

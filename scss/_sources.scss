@@ -5,6 +5,28 @@
     opacity: 0.15;
   }
 }
-.item-sources {
-  display: inline-block;
+#carouselSources {
+  height: 197px;
+
+  .carousel-inner.carousel-sources {
+    .item.item-sources {
+      display: inline-block;
+      height: 140px;
+
+      img {
+        min-width: auto !important;
+        height: auto !important;
+      }
+    }
+  }
+}
+.carousel-control-sources-left {
+  position: absolute;
+  left: -135px !important;
+  top: 30%;
+}
+.carousel-control-sources-right {
+  position: absolute;
+  right: 135px !important;
+  top: 30%;
 }
