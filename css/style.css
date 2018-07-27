@@ -38,6 +38,7 @@ a {
   margin-right: 135px; }
 
 .heading {
+  font-family: 'PT Sans';
   font-size: 20px;
   font-weight: 400;
   line-height: 20px;
@@ -116,7 +117,7 @@ a {
   text-decoration: underline;
   margin-right: 4px;
   margin-left: 28px;
-  letter-spacing: 0.4px; }
+  letter-spacing: 0.2px; }
   .navbar-belt__item:hover, .navbar-belt__item:focus {
     text-decoration: none; }
   .navbar-belt__item a {
@@ -188,13 +189,14 @@ hr {
   width: 100%; }
   .navbar-menu-dropdown li {
     text-transform: none;
-    margin: 14px 46px 19px 22px; }
+    margin: 14px 46px 19px 22px;
+    width: 196px;
+    word-wrap: break-word; }
     .navbar-menu-dropdown li a {
       background-color: #fff;
       color: #191919 !important;
       line-height: 30px;
-      text-decoration: underline;
-      word-break: break-all; }
+      text-decoration: underline; }
       .navbar-menu-dropdown li a:hover, .navbar-menu-dropdown li a:focus {
         background-color: #fff !important;
         text-decoration: none !important;
@@ -240,6 +242,9 @@ hr {
   top: 50%;
   z-index: 10; }
 
+.content {
+  margin-top: 10px; }
+
 .list-group {
   width: 260px;
   position: absolute;
@@ -249,9 +254,14 @@ a.list-group-item {
   background-color: #ff8288;
   box-shadow: 1px 1px 0 #ba7275;
   color: #fff;
-  font-size: remy(13px);
+  font-size: 13px;
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  padding-left: 34px !important;
+  padding-right: 30px !important;
+  border-radius: 0 !important; }
   a.list-group-item:hover, a.list-group-item:focus {
     background-color: #fd6970;
     box-shadow: 1px 1px 0 #ac5256;
@@ -274,12 +284,12 @@ a.list-group-item {
   background-color: #f6f6f6; }
 
 .sidebar-offcanvas {
-  margin-top: 30px; }
+  margin-top: 20px; }
 
 .sidebar-dropdown {
   width: 100%; }
   .sidebar-dropdown li {
-    font-size: remy(14px);
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     color: #545454;
