@@ -34,7 +34,8 @@ a {
 .navbar__header,
 .navbar-menu,
 .content,
-.refer {
+.refer,
+.sources {
   margin-left: 135px;
   margin-right: 135px; }
 
@@ -407,5 +408,13 @@ a.list-group-gray {
   margin-bottom: 5px;
   margin-left: 90px;
   margin-right: 90px; }
+
+.sources hr {
+  height: 1px;
+  background-color: #000;
+  opacity: 0.15; }
+
+.item-sources {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */
