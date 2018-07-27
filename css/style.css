@@ -32,6 +32,7 @@ a {
   padding: 0; }
 
 .navbar__header,
+.navbar-menu,
 .content {
   margin-left: 135px;
   margin-right: 135px; }
@@ -114,7 +115,8 @@ a {
   font-weight: 400;
   text-decoration: underline;
   margin-right: 4px;
-  margin-left: 28px; }
+  margin-left: 28px;
+  letter-spacing: 0.4px; }
   .navbar-belt__item:hover, .navbar-belt__item:focus {
     text-decoration: none; }
   .navbar-belt__item a {
@@ -161,22 +163,42 @@ hr {
 .menu-item {
   text-transform: uppercase;
   height: 40px;
-  padding-right: 77px;
-  padding-left: 76px; }
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-top: 10px; }
   .menu-item a {
     color: #191919;
     padding: 0 !important;
     font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     font-weight: 700; }
-    .menu-item a:hover {
+    .menu-item a:hover, .menu-item a:focus {
       color: #fff;
       background-color: #810c30 !important; }
-  .menu-item:hover {
+  .menu-item:hover, .menu-item:focus {
     background-color: #810c30 !important; }
+    .menu-item:hover a, .menu-item:focus a {
+      color: #fff; }
 
 .menu {
-  margin: 23px 135px 30px 135px; }
+  margin-top: 23px !important;
+  margin-bottom: 30px !important; }
+
+.navbar-menu-dropdown {
+  width: 100%; }
+  .navbar-menu-dropdown li {
+    text-transform: none;
+    margin: 14px 46px 19px 22px; }
+    .navbar-menu-dropdown li a {
+      background-color: #fff;
+      color: #191919 !important;
+      line-height: 30px;
+      text-decoration: underline;
+      word-break: break-all; }
+      .navbar-menu-dropdown li a:hover, .navbar-menu-dropdown li a:focus {
+        background-color: #fff !important;
+        text-decoration: none !important;
+        color: #191919; }
 
 .hero {
   position: relative; }

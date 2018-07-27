@@ -21,6 +21,7 @@
   text-decoration: underline;
   margin-right: 4px;
   margin-left: 28px;
+  letter-spacing: 0.4px;
 
   &:hover,
   &:focus {
@@ -75,8 +76,9 @@ hr {
 .menu-item {
   text-transform: uppercase;
   height: 40px;
-  padding-right: 77px;
-  padding-left: 76px;
+  padding-right: 64px;
+  padding-left: 64px;
+  padding-top: 10px;
 
   a {
     color: #191919;
@@ -85,16 +87,46 @@ hr {
     font-size: 14px;
     font-weight: 700;
 
-    &:hover {
+    &:hover,
+    &:focus {
       color: #fff;
       background-color: #810c30 !important;
     }
   }
 
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: #810c30 !important;
+
+    a {
+      color: #fff;
+    }
   }
 }
 .menu {
-  margin: 23px 135px 30px 135px;
+  margin-top: 23px !important;
+  margin-bottom: 30px !important;
+}
+.navbar-menu-dropdown {
+  width: 100%;
+
+  li {
+    text-transform: none;
+    margin: 14px 46px 19px 22px;
+
+    a {
+      background-color: #fff;
+      color: #191919 !important;
+      line-height: 30px;
+      text-decoration: underline;
+      word-break: break-all;
+
+      &:hover,
+      &:focus {
+        background-color: #fff !important;
+        text-decoration: none !important;
+        color: #191919;
+      }
+    }
+  }
 }
