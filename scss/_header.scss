@@ -8,9 +8,16 @@
   height: 37px;
 }
 .navbar-belt__item {
-  font-size: remy(13px);
+  font-size: 13px;
   font-weight: 400;
   text-decoration: underline;
+  margin-right: 4px;
+  margin-left: 28px;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 
   a {
     color: #333333;
@@ -21,9 +28,15 @@
 .black {
   background-color: #191919;
   color: #fff;
-  height: 23px;
+  height: 21px;
   border-radius: 25px;
   padding: 0 10px;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
 }
 .navbar-belt__icons {
   margin-right: 3px;
@@ -35,14 +48,14 @@
   margin-top: 34px;
 }
 .phone-text {
-  font-size: remy(12px);
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   color: #ff8288;
 }
 .phone-number {
   color: #333333;
-  font-size: remy(16px);
+  font-size: 16px;
   font-weight: 400;
 }
 hr {
@@ -53,7 +66,7 @@ hr {
 }
 .menu-item {
   text-transform: uppercase;
-  height: remy(40px);
+  height: 40px;
   padding-right: 77px;
   padding-left: 76px;
 
@@ -61,7 +74,7 @@ hr {
     color: #191919;
     padding: 0 !important;
     font-family: 'PT Sans', sans-serif;
-    font-size: remy(14px);
+    font-size: 14px;
     font-weight: 700;
 
     &:hover {

@@ -30,16 +30,16 @@
 body {
   width: 100%;
   min-width: 1000px;
-  font-family: 'PT Sans', serif;
+  font-family: 'PT Sans', sans-serif;
 }
-ul {
-  margin: 0;
-  padding: 0;
+ul,
+a {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .container-fluid {
   padding: 0;
 }
-.navbar-belt,
 .navbar__header,
 .content {
   margin-left: 135px;
