@@ -77,6 +77,10 @@ a {
   padding: 13px 54px 11px 17px;
   border-radius: 15px;
   line-height: 14px;
+
+  &:focus {
+    outline: none;
+  }
 }
 .form-btn {
   background-color: #810c30;
@@ -93,6 +97,12 @@ a {
   border: none;
   border-radius: 15px;
   margin-left: 15px;
+
+  &:hover,
+  &:focus {
+    background-color: #911b3f;
+    outline: none;
+  }
 }
 .form-mark {
   margin-right: 8px;
