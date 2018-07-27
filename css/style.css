@@ -523,4 +523,10 @@ a.list-group-gray {
   .footer-bottom a:hover {
     color: #fff; }
 
+.footer-phone {
+  color: #fff !important; }
+
+.footer-white a {
+  color: #fff !important; }
+
 /*# sourceMappingURL=style.css.map */
