@@ -48,3 +48,25 @@
     background-color: #911b3e !important;
   }
 }
+.footer-submenu {
+  margin-top: 29px;
+  margin-bottom: 23px;
+  margin-left: 135px;
+}
+.footer-text {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0;
+}
+.footer-bottom {
+  margin-top: 60px;
+  text-decoration: underline;
+
+  a {
+    &:hover {
+      color: #fff;
+    }
+  }
+}
