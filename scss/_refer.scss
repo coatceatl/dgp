@@ -4,6 +4,7 @@
 }
 .thumbnail {
   padding: 0;
+  border: 3px solid #fff4f5;
 }
 .refer-img {
   height: 142px;
@@ -49,5 +50,19 @@ a.list-group-gray {
 
   img {
     margin-right: 10px;
+  }
+}
+.refer-link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #810c30;
+  margin-left: 14px !important;
+
+  &:hover,
+  &:focus {
+     text-decoration: none;
+     color: #810c30;
   }
 }
