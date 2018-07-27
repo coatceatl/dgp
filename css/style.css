@@ -469,4 +469,19 @@ a.list-group-gray {
   font-size: 13px;
   font-weight: 400; }
 
+.footer {
+  background-color: #911b3f; }
+
+.footer-menu {
+  margin: 20px 135px; }
+
+.footer-menu-items li {
+  list-style: none; }
+  .footer-menu-items li a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
