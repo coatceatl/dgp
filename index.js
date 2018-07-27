@@ -9,3 +9,12 @@ $(document).ready(function() {
     interval: 4000,
   });
 });
+
+ymaps.ready(init);
+
+function init(){
+  var myMap = new ymaps.Map('map', {
+    center: [55.66599957, 37.75337950],
+    zoom: 16
+  });
+}
