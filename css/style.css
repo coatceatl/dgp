@@ -497,7 +497,12 @@ a.list-group-gray {
   .footer-navbar ul {
     margin-top: 0 !important;
     margin-bottom: 0; }
-    .footer-navbar ul li a {
-      color: #fff; }
+
+.footer-menu-item a {
+  color: #fff; }
+  .footer-menu-item a:hover, .footer-menu-item a:focus {
+    background-color: #911b3e !important; }
+.footer-menu-item:hover, .footer-menu-item:focus {
+  background-color: #911b3e !important; }
 
 /*# sourceMappingURL=style.css.map */

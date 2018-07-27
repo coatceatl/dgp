@@ -31,9 +31,20 @@
   ul {
     margin-top: 0 !important;
     margin-bottom: 0;
+  }
+}
+.footer-menu-item {
+  a {
+    color: #fff;
 
-    li a {
-      color: #fff;
+    &:hover,
+    &:focus {
+      background-color: #911b3e !important;
     }
+  }
+
+  &:hover,
+  &:focus {
+    background-color: #911b3e !important;
   }
 }
