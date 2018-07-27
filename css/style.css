@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   src: url("../fonts/PTS55F.ttf") format("ttf");
   font-weight: 400;
   font-style: normal; }
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   src: url("../fonts/PTS75F.ttf") format("ttf");
   font-weight: 700;
   font-style: normal; }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   src: url("../fonts/OpenSans-Regular.ttf") format("ttf");
   font-weight: 400;
   font-style: normal; }
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   src: url("../fonts/OpenSans-Bold.ttf") format("ttf");
   font-weight: 700;
   font-style: normal; }
@@ -431,5 +431,42 @@ a.list-group-gray {
   position: absolute;
   right: 135px !important;
   top: 30%; }
+
+.map {
+  position: relative; }
+
+.card {
+  position: absolute;
+  right: 4px;
+  top: 48px;
+  bottom: 48px;
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+  width: 281px;
+  height: 254px;
+  z-index: 100; }
+
+.card-body {
+  margin: 19px 21px 20px 19px; }
+
+.card-link {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #820c2f;
+  text-decoration: underline;
+  text-transform: uppercase; }
+  .card-link:hover {
+    text-decoration: none;
+    color: #820c2f; }
+
+.card-link.active {
+  color: #888;
+  text-decoration: none; }
+
+.card-text {
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */
