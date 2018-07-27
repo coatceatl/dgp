@@ -487,4 +487,17 @@ a.list-group-gray {
     color: #fff;
     font-family: 'PT Sans', sans-serif; }
 
+.footer-navbar {
+  background-color: #820c2f;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 135px; }
+  .footer-navbar ul {
+    margin-top: 0 !important;
+    margin-bottom: 0; }
+    .footer-navbar ul li a {
+      color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
