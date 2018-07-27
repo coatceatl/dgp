@@ -268,7 +268,7 @@ a.list-group-item {
   background-color: #ff8288;
   box-shadow: 1px 1px 0 #ba7275;
   color: #fff;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
   padding-top: 13px !important;
@@ -353,7 +353,27 @@ a.list-group-item {
   margin-top: 30px;
   margin-bottom: 20px; }
 
-.sidebar-gray {
-  background-color: #f6f6f6; }
+#sidebar-gray {
+  margin-top: 30px; }
+
+a.list-group-gray {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  padding-left: 34px !important;
+  padding-right: 21px !important;
+  border-radius: 0 !important;
+  letter-spacing: -0.2px; }
+  a.list-group-gray:hover, a.list-group-gray:focus {
+    background-color: #fd6970;
+    box-shadow: 1px 1px 0 #ac5256;
+    color: #fff; }
+  a.list-group-gray img {
+    margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

@@ -23,6 +23,31 @@
   margin-top: 30px;
   margin-bottom: 20px;
 }
-.sidebar-gray {
+#sidebar-gray {
+  margin-top: 30px;
+}
+a.list-group-gray {
+  font-family: 'PT Sans', sans-serif;
   background-color: #f6f6f6;
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 13px !important;
+  padding-bottom: 13px !important;
+  padding-left: 34px !important;
+  padding-right: 21px !important;
+  border-radius: 0 !important;
+  letter-spacing: -0.2px;
+
+  &:hover,
+  &:focus {
+    background-color: #fd6970;
+    box-shadow: 1px 1px 0 #ac5256;
+    color: #fff;
+  }
+
+  img {
+    margin-right: 10px;
+  }
 }
