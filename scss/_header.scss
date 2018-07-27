@@ -1,11 +1,19 @@
 .header {
   width: 100%;
 }
+.navbar-belt {
+  position: absolute;
+  right: 120px;
+}
 .navbar__links {
   background-color: rgba(220,220,220,.25);
   padding-top: 7px;
   padding-bottom: 7px;
   height: 37px;
+}
+.navbar-belt__menu {
+  position: absolute;
+  right: 0;
 }
 .navbar-belt__item {
   font-size: 13px;
