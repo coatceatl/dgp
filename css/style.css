@@ -411,7 +411,8 @@ a.list-group-gray {
 .sources hr {
   height: 1px;
   background-color: #000;
-  opacity: 0.15; }
+  opacity: 0.15;
+  margin-right: 135px; }
 
 #carouselSources {
   height: 197px; }
@@ -424,13 +425,17 @@ a.list-group-gray {
 
 .carousel-control-sources-left {
   position: absolute;
-  left: -135px !important;
+  left: -110px !important;
   top: 30%; }
 
 .carousel-control-sources-right {
   position: absolute;
-  right: 135px !important;
+  right: 0px !important;
   top: 30%; }
+
+.item-sources {
+  margin-left: 50px;
+  margin-right: 45px; }
 
 .map {
   position: relative; }

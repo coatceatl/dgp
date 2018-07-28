@@ -3,6 +3,7 @@
     height: 1px;
     background-color: #000;
     opacity: 0.15;
+    margin-right: 135px;
   }
 }
 #carouselSources {
@@ -22,11 +23,16 @@
 }
 .carousel-control-sources-left {
   position: absolute;
-  left: -135px !important;
+  left: -110px !important;
   top: 30%;
 }
 .carousel-control-sources-right {
   position: absolute;
-  right: 135px !important;
+  right: 0px !important;
   top: 30%;
 }
+.item-sources {
+  margin-left: 50px;
+  margin-right: 45px;
+}
+
