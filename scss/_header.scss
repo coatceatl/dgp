@@ -69,8 +69,10 @@
   font-size: 16px;
   font-weight: 400;
 }
-.phone-body {
-  padding-left: 10px;
+@media (max-width: 1440px) {
+  .phone-body {
+    padding-left: 10px;
+  }
 }
 hr {
   background-color: #000000;
@@ -85,6 +87,13 @@ hr {
   padding-left: 64px;
   padding-top: 10px;
 
+  &:hover,
+  &:focus {
+    .icon-black {
+      opacity: 0;
+    }
+  }
+
   a {
     color: #191919;
     padding: 0 !important;
@@ -96,6 +105,10 @@ hr {
     &:focus {
       color: #fff;
       background-color: #810c30 !important;
+
+      .icon-black {
+        opacity: 0;
+      }
     }
   }
 
@@ -123,13 +136,14 @@ hr {
     text-transform: none;
     margin: 14px 46px 19px 22px;
     width: 196px;
-    word-wrap: break-word;
 
     a {
+      font-family: 'PT Sans', sans-serif;
       background-color: #fff;
       color: #191919 !important;
       line-height: 30px;
       text-decoration: underline;
+      white-space: normal;
 
       &:hover,
       &:focus {
