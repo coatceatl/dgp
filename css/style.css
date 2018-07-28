@@ -259,6 +259,10 @@ hr {
         text-decoration: none !important;
         color: #191919; }
 
+@media (max-width: 1440px) {
+  .menu-item {
+    padding-right: 50px;
+    padding-left: 50px; } }
 .hero {
   position: relative; }
 
@@ -279,19 +283,26 @@ hr {
 .field {
   position: absolute;
   right: 0;
-  top: 0; }
+  top: 0;
+  width: 706px;
+  height: 535px; }
+
+.field-text {
+  width: 200px;
+  height: 335px;
+  position: absolute;
+  top: 70px;
+  left: 215px;
+  transform: rotate(0deg);
+  white-space: normal; }
 
 .hero-heading {
-  position: absolute;
-  top: 97px;
-  right: 226px;
-  bottom: 103px;
-  left: 156px;
   color: #fff;
-  font-size: remy(43px);
+  font-size: 43px;
   font-weight: 700;
-  line-height: remy(60px);
-  text-transform: uppercase; }
+  line-height: 60px;
+  text-transform: uppercase;
+  margin: 0 !important; }
 
 .carousel-control {
   background-image: none !important;
