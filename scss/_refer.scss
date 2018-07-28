@@ -86,5 +86,14 @@ a.list-group-gray {
   margin-bottom: 5px;
   margin-left: 90px;
   margin-right: 90px;
+}
+.nav-tabs {
+  border-bottom: none !important;
 
+  li {
+    margin-right: 20px !important;
+  }
+}
+.tab-content {
+  margin-top: 20px;
 }
