@@ -103,6 +103,18 @@ a.list-group-gray {
     margin-right: 20px !important;
   }
 }
+.nav-tabs {
+  li.active {
+    a {
+      background-color: #820c2f !important;
+      border-radius: 0 !important;
+      font-weight: 700;
+      color: #fff !important;
+      padding: 21px 20px 20px 19px !important;
+      text-transform: uppercase;
+    }
+  }
+}
 .tab-content {
   margin-top: 20px;
 }
