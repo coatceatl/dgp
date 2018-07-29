@@ -289,7 +289,8 @@ hr {
 .search-open {
   display: block !important;
   width: 100%;
-  margin-left: -135px; }
+  margin-left: -135px;
+  margin-right: -135px; }
 
 .close-btn {
   color: #333;
@@ -489,7 +490,13 @@ a.list-group-item {
   font-weight: 400;
   margin-top: 20px;
   margin-bottom: 20px;
-  line-height: 14px; }
+  line-height: 14px;
+  height: calc(100% - 190px);
+  overflow: hidden; }
+
+.refer-body {
+  height: calc(100% - 70px);
+  overflow: hidden; }
 
 #sidebar-gray {
   margin-top: 30px; }
@@ -586,6 +593,39 @@ time {
 @media (min-width: 1440px) {
   .form-group {
     width: 220px; } }
+.form-check label {
+  vertical-align: text-bottom; }
+
+input[type='radio']:checked {
+  display: none;
+  width: 17px;
+  height: 17px;
+  z-index: 99999;
+  position: relative;
+  cursor: pointer; }
+
+input[type='radio']:checked + label {
+  padding-left: 18px;
+  height: 18px;
+  width: 18px;
+  background-image: url(../images/icons/radio.png);
+  background-repeat: no-repeat; }
+
+/*
+input[type=radio] .form-check-input {
+
+  &:focus {
+    &:before {
+      content: '';
+      position: absolute;
+      left:5px;
+      width: 12px;
+      height: 12px;
+      background: url(../images/icons/radio.png);
+    }
+  }
+}
+*/
 .sources hr {
   height: 1px;
   background-color: #000;
