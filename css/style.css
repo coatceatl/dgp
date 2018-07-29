@@ -282,27 +282,27 @@ hr {
 
 .field {
   position: absolute;
-  right: 0;
+  right: 195px;
   top: 0;
-  width: 706px;
-  height: 535px; }
-
-.field-text {
-  width: 200px;
-  height: 335px;
-  position: absolute;
-  top: 70px;
-  left: 215px;
-  transform: rotate(0deg);
-  white-space: normal; }
-
-.hero-heading {
+  width: 500px;
+  height: 535px;
   color: #fff;
   font-size: 43px;
   font-weight: 700;
   line-height: 60px;
-  text-transform: uppercase;
-  margin: 0 !important; }
+  text-transform: uppercase; }
+
+.field-text {
+  width: 350px;
+  height: 335px;
+  position: absolute;
+  top: 70px;
+  left: 160px;
+  transform-origin: 0 100%;
+  transform: skew(-20deg); }
+  .field-text p {
+    transform-origin: 0 0;
+    transform: skew(20deg); }
 
 .carousel-control {
   background-image: none !important;
