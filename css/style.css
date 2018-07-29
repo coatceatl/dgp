@@ -456,6 +456,14 @@ a.list-group-item {
 @media (max-width: 1440px) {
   .list-group {
     width: 240px !important; } }
+.sidebar-registration {
+  background-color: #f6f6f6; }
+
+.sidebar-body {
+  padding: 15px 8px 15px 7px; }
+  .sidebar-body .text-list {
+    padding-left: 15px !important; }
+
 .refer {
   margin-top: 50px; }
 
@@ -491,7 +499,8 @@ a.list-group-item {
   overflow: hidden; }
 
 .sidebar-gray {
-  margin-top: 30px; }
+  margin-top: 30px;
+  margin-bottom: 30px; }
 
 a.list-group-gray {
   font-family: 'PT Sans', sans-serif;
