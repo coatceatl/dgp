@@ -58,8 +58,21 @@ a.list-group-item {
   margin-left: 30px;
   width: calc(50% - 40px);
 }
+/*
+@media (max-width: 1440px) {
+  .registration-form {
+    margin-left: 30px;
+    width: calc(50% - 40px);
+  }
+}*/
+@media (max-width: 1200px) {
+  .registration-form {
+    margin-left: 0;
+    width: 100%;
+  }
+}
 .content-contacts {
-  height: 330px;
+  height: auto;
 }
 .contacts-block {
   margin-bottom: 20px;
