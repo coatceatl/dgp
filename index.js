@@ -2,12 +2,12 @@ $(document).ready(function() {
 
   $('#search').click(function() {
     $('.menu').addClass('hidden');
-    $('.menu-search').addClass('open');
+    $('.menu-search').addClass('search-open');
   });
 
   $('#close').click(function() {
     $('.menu').removeClass('hidden');
-    $('.menu-search').removeClass('open');
+    $('.menu-search').removeClass('search-open');
   });
 
   $('#myCarousel').carousel({
