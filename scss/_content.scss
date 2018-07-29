@@ -51,7 +51,12 @@ a.list-group-item {
 .registration {
   background-color: #f6f6f6;
   height: 150px;
+  padding-left: 34px;
   margin-top: 50px;
+}
+.registration-form {
+  margin-left: 30px;
+  width: calc(50% - 40px);
 }
 .content-contacts {
   height: 330px;
@@ -87,4 +92,7 @@ a.list-group-item {
   position: absolute;
   top: 18px;
   right: 31px;
+}
+.border {
+  border-right: 1px solid rgba(0,0,0,.15);
 }
