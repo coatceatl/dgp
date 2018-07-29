@@ -457,8 +457,7 @@ a.list-group-item {
   .list-group {
     width: 240px !important; } }
 .refer {
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-top: 50px; }
 
 .thumbnail {
   padding: 0;
@@ -662,8 +661,19 @@ input[type='radio']:checked + label {
   background-image: none;
   width: 30px; }
 
+.carousel-control-sources-left {
+  position: absolute;
+  left: -15px !important;
+  top: 15%; }
+
+.carousel-control-sources-right {
+  position: absolute;
+  right: 0px !important;
+  top: 15%; }
+
 .map {
-  position: relative; }
+  position: relative;
+  margin-top: 20px; }
 
 .card {
   position: absolute;
