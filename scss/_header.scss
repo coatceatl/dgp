@@ -154,6 +154,40 @@ hr {
     }
   }
 }
+.menu-search {
+  background-color: #f6f6f6;
+  margin-left: -135px;
+  margin-right: -135px;
+  display: none;
+
+  input {
+    border: 1px solid #c7c7c7;
+    background-color: #fff;
+    height: 24px;
+    width: 363px;
+  }
+  button {
+    height: 24px !important;
+    width: 77px;
+    padding: 3px 18px 5px 19px;
+    border: 0;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
+  }
+}
+.hidden {
+  opacity: 0;
+}
+.open {
+  opacity: 1 !important;
+  width: 100%;
+  margin: 0;
+}
 @media (max-width: 1440px) {
   .menu-item {
     padding-right: 50px;

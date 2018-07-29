@@ -108,3 +108,8 @@ a.list-group-item {
 .border {
   border-right: 1px solid rgba(0,0,0,.15);
 }
+@media (max-width: 1440px) {
+  .list-group {
+    width: 240px !important;
+  }
+}
