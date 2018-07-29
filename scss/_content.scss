@@ -25,6 +25,7 @@ a.list-group-item {
   padding-right: 21px !important;
   border-radius: 0 !important;
   letter-spacing: -0.2px;
+  white-space: normal;
 
   &:hover,
   &:focus {
@@ -50,7 +51,7 @@ a.list-group-item {
 }
 .registration {
   background-color: #f6f6f6;
-  height: 150px;
+  min-height: 150px;
   padding-left: 34px;
   margin-top: 50px;
 }
@@ -58,13 +59,6 @@ a.list-group-item {
   margin-left: 30px;
   width: calc(50% - 40px);
 }
-/*
-@media (max-width: 1440px) {
-  .registration-form {
-    margin-left: 30px;
-    width: calc(50% - 40px);
-  }
-}*/
 @media (max-width: 1200px) {
   .registration-form {
     margin-left: 0;
@@ -91,12 +85,17 @@ a.list-group-item {
     width: 100%;
     text-decoration: underline;
 
+    a {
+      white-space: normal;
+    }
+
     &:hover,
     &:focus {
       text-decoration: none;
 
       a {
         background-color: #fff !important;
+        white-space: normal;
       }
     }
   }

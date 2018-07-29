@@ -5,6 +5,7 @@
 .thumbnail {
   padding: 0;
   border: 3px solid #fff4f5;
+  max-height: 356px;
 }
 .refer-img {
   height: 142px;
@@ -15,14 +16,16 @@
 }
 .refer-caption {
   margin: 20px 20px 22px 20px;
+  height: 262px;
 }
 .refer-text {
   color: #333333;
   font-family: "PT Sans";
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 20px;
+  line-height: 14px;
 }
 #sidebar-gray {
   margin-top: 30px;
@@ -58,7 +61,6 @@ a.list-group-gray {
   line-height: 20px;
   text-decoration: underline;
   color: #810c30;
-  margin-left: 14px !important;
 
   &:hover,
   &:focus {
@@ -78,14 +80,15 @@ a.list-group-gray {
     margin-bottom: 26px;
   }
 }
+.form-group {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .form-control {
   border: 1px solid rgba(130, 12, 47, 0.1);
   background-color: #fff;
-  width: 220px;
   height: 40px;
   margin-bottom: 5px;
-  margin-left: 90px;
-  margin-right: 90px;
 }
 .nav-tabs {
   border-bottom: none !important;
@@ -129,4 +132,9 @@ time {
   color: #636363;
   font-size: 14px;
   line-height: 20px;
+}
+@media (min-width: 1440px) {
+  .form-group {
+    width: 220px;
+  }
 }
