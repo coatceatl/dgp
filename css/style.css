@@ -490,7 +490,7 @@ a.list-group-item {
   height: calc(100% - 70px);
   overflow: hidden; }
 
-#sidebar-gray {
+.sidebar-gray {
   margin-top: 30px; }
 
 a.list-group-gray {
