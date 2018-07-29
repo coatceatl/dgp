@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   $('#search').click(function() {
-    $('.menu').toggleClass('hidden');
+    $('.menu').addClass('hidden');
     $('.menu-search').toggleClass('open');
   });
 
