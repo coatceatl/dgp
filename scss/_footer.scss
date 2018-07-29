@@ -78,6 +78,15 @@
     color: #fff !important;
   }
 }
+.footer-belt {
+  .navbar-belt__item a {
+    margin-bottom: 7px !important;
+
+    &:hover {
+      background-color: #911b3f !important;
+    }
+  }
+}
 .footer-market-icon {
   list-style: none;
   width: 40px;
@@ -85,6 +94,7 @@
   background-color: #fff;
   border-radius: 50%;
   position: relative;
+  margin-bottom: 7px;
 
   a {
     position: absolute;

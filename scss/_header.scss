@@ -215,3 +215,10 @@ hr {
     padding-left: 50px;
   }
 }
+.stickytop {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #820c2f;
+  margin-left: 0;
+}

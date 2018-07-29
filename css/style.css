@@ -311,6 +311,13 @@ hr {
   .menu-item {
     padding-right: 50px;
     padding-left: 50px; } }
+.stickytop {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #820c2f;
+  margin-left: 0; }
+
 .hero {
   position: relative; }
 
@@ -705,13 +712,19 @@ time {
 .footer-white a {
   color: #fff !important; }
 
+.footer-belt .navbar-belt__item a {
+  margin-bottom: 7px !important; }
+  .footer-belt .navbar-belt__item a:hover {
+    background-color: #911b3f !important; }
+
 .footer-market-icon {
   list-style: none;
   width: 40px;
   height: 40px;
   background-color: #fff;
   border-radius: 50%;
-  position: relative; }
+  position: relative;
+  margin-bottom: 7px; }
   .footer-market-icon a {
     position: absolute;
     top: 20%;

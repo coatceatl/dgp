@@ -10,6 +10,16 @@ $(document).ready(function() {
     $('.menu-search').removeClass('search-open');
   });
 
+  $(window).scroll(function() {
+    console.log('scroll');
+    if($(this).scrollTop() >= 126) {
+      $('.navbar-menu').addClass('stickytop');
+    }
+    else{
+      $('.navbar-menu').removeClass('stickytop');
+    }
+  });
+
   $('#myCarousel').carousel({
     pause: true,
     interval: 4000,
