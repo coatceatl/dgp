@@ -612,49 +612,55 @@ input[type='radio']:checked + label {
   background-image: url(../images/icons/radio.png);
   background-repeat: no-repeat; }
 
+.tabs-arrow {
+  position: absolute;
+  width: 40px; }
+
 /*
-input[type=radio] .form-check-input {
-
-  &:focus {
-    &:before {
-      content: '';
-      position: absolute;
-      left:5px;
-      width: 12px;
-      height: 12px;
-      background: url(../images/icons/radio.png);
-    }
+.tab-content {
+  .tab-pane {
+    display: block;
+    height: 0;
+    overflow: hidden;
   }
-}
-*/
-.sources hr {
-  height: 1px;
-  background-color: #000;
-  opacity: 0.15;
-  margin-right: 135px; }
+  .active {
+    height: auto;
+  }
+}*/
+#tabsCarousel {
+  width: calc(100% - 60px); }
+  #tabsCarousel .carousel-inner {
+    margin-left: 30px;
+    margin-right: 30px; }
 
-#carouselSources {
-  height: 197px; }
-  #carouselSources .carousel-inner.carousel-sources .item.item-sources {
-    display: inline-block;
-    height: 140px; }
-    #carouselSources .carousel-inner.carousel-sources .item.item-sources img {
-      min-width: auto !important;
-      height: auto !important; }
+.sources {
+  margin-left: 135px;
+  margin-right: 135px;
+  padding-top: 29px;
+  padding-bottom: 29px;
+  height: 199px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
 
-.carousel-control-sources-left {
-  position: absolute;
-  left: -110px !important;
-  top: 30%; }
-
-.carousel-control-sources-right {
-  position: absolute;
-  right: 0px !important;
-  top: 30%; }
-
-.item-sources {
-  margin-left: 50px;
-  margin-right: 45px; }
+.multi-item-carousel .carousel-inner > .item {
+  transition: 500ms ease-in-out left; }
+.multi-item-carousel .carousel-inner .active.left {
+  left: -33%; }
+.multi-item-carousel .carousel-inner .active.right {
+  left: 33%; }
+.multi-item-carousel .carousel-inner .next {
+  left: 33%; }
+.multi-item-carousel .carousel-inner .prev {
+  left: -33%; }
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .multi-item-carousel .carousel-inner > .item {
+    transition: 500ms ease-in-out left;
+    transition: 500ms ease-in-out all;
+    backface-visibility: visible;
+    transform: none !important; } }
+.multi-item-carousel .carousel-control.left, .multi-item-carousel .carousel-control.right {
+  background-image: none;
+  width: 30px; }
 
 .map {
   position: relative; }
