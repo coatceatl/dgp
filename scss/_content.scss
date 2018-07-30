@@ -157,11 +157,6 @@ a.list-group-item {
       font-weight: 400;
       margin-left: 8px !important;
       text-decoration: underline;
-
-      span {
-        font-weight: 700;
-        text-decoration: none !important;
-      }
     }
   }
 
@@ -170,11 +165,11 @@ a.list-group-item {
       color: #333;
       font-weight: 700;
       background-color: #fff !important;
-      text-decoration: underline;
-
-      &:hover {
-        opacity: 1;
-      }
+      text-decoration: none !important;
     }
   }
+}
+.quotes {
+  font-weight: 700;
+  text-decoration: none !important;
 }
