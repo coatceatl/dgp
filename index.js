@@ -28,7 +28,7 @@ $(document).ready(function() {
   var tab = $('#myTab');
   var num = tab.find('.nav-tabs li').length - 1;
 
-  $('.next').click(function(e){
+  $('.arrow-next').click(function(e){
     e.preventDefault();
     var cur = tab.find('li.active');
     var index = cur.index();
@@ -43,7 +43,7 @@ $(document).ready(function() {
     next.find('a').tab('show');
     });
 
-  $('.prev').click(function(e){
+  $('.arrow-prev').click(function(e){
     e.preventDefault();
     var cur = tab.find('li.active');
     var index = cur.index();

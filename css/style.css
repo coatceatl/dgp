@@ -615,7 +615,8 @@ a.list-group-gray {
   margin-top: 20px; }
 
 .media-object {
-  margin-right: 20px; }
+  margin-right: 20px;
+  float: left; }
 
 time {
   font-size: 13px;
@@ -628,10 +629,12 @@ time {
   text-decoration: underline;
   font-size: 13px;
   font-weight: 400;
-  line-height: 20px; }
+  line-height: 20px;
+  border: 0 !important; }
   .media-link:hover {
     color: #810c30 !important;
-    text-decoration: none; }
+    text-decoration: none;
+    background-color: #fff !important; }
 
 .media-heading {
   color: #191919;
@@ -684,8 +687,8 @@ input[type='radio']:checked + label {
 .controls {
   position: relative; }
 
-.prev,
-.next {
+.arrow-prev,
+.arrow-next {
   position: absolute;
   background-color: #f6f6f6;
   height: 100%;
@@ -693,7 +696,7 @@ input[type='radio']:checked + label {
   border: none;
   bottom: 0; }
 
-.next {
+.arrow-next {
   right: 0; }
 
 .sources {
