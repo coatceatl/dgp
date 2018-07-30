@@ -8,8 +8,6 @@
 }
 .list-group {
   width: 260px;
-  position: absolute;
-  right: 0;
 }
 a.list-group-item {
   font-family: 'PT Sans', sans-serif;
@@ -133,6 +131,20 @@ a.list-group-item {
     margin-top: 0 !important;
   }
 }
+.breadcrumb {
+  background-color: #fff !important;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 0;
+
+  li a {
+    color: #333 !important;
+    text-decoration: underline;
+  }
+  .active a {
+    text-decoration: none;
+  }
+}
 .pagination {
   padding-left: 21px !important;
   vertical-align: bottom;
@@ -148,7 +160,7 @@ a.list-group-item {
 
       span {
         font-weight: 700;
-        text-decoration: none;
+        text-decoration: none !important;
       }
     }
   }

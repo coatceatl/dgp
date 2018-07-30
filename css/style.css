@@ -368,9 +368,7 @@ hr {
   margin-right: 15px; }
 
 .list-group {
-  width: 260px;
-  position: absolute;
-  right: 0; }
+  width: 260px; }
 
 a.list-group-item {
   font-family: 'PT Sans', sans-serif;
@@ -471,6 +469,17 @@ a.list-group-item {
   .sidebar-body h2 {
     margin-top: 0 !important; }
 
+.breadcrumb {
+  background-color: #fff !important;
+  font-size: 13px;
+  font-weight: 400;
+  padding-left: 0; }
+  .breadcrumb li a {
+    color: #333 !important;
+    text-decoration: underline; }
+  .breadcrumb .active a {
+    text-decoration: none; }
+
 .pagination {
   padding-left: 21px !important;
   vertical-align: bottom; }
@@ -483,7 +492,7 @@ a.list-group-item {
     text-decoration: underline; }
     .pagination li a span {
       font-weight: 700;
-      text-decoration: none; }
+      text-decoration: none !important; }
   .pagination .active a {
     color: #333;
     font-weight: 700;
