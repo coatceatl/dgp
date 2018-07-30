@@ -40,7 +40,7 @@ a {
 .navbar-menu,
 .content,
 .refer,
-.main-news {
+.main {
   margin-left: 135px;
   margin-right: 135px;
 }
@@ -58,6 +58,12 @@ a {
   font-weight: 400;
   line-height: 20px;
   margin-bottom: 0;
+}
+.main-text {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #333;
 }
 .caption {
   font-weight: 700;
@@ -144,7 +150,8 @@ a {
     margin-right: 15px;
   }
   .content,
-  .refer {
+  .refer,
+  .main {
     margin-left: 3%;
     margin-right: 3%;
   }
