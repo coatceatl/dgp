@@ -415,6 +415,10 @@ a.list-group-item {
   margin-left: 30px;
   width: calc(50% - 40px); }
 
+.form input,
+.form button {
+  margin-top: 10px; }
+
 @media (max-width: 1200px) {
   .registration-form {
     margin-left: 0;
@@ -457,12 +461,21 @@ a.list-group-item {
   .list-group {
     width: 240px !important; } }
 .sidebar-registration {
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  margin-top: 20px; }
 
 .sidebar-body {
-  padding: 15px 8px 15px 7px; }
+  padding: 14px 18px 15px 17px !important; }
   .sidebar-body .text-list {
     padding-left: 15px !important; }
+  .sidebar-body h2 {
+    margin-top: 0 !important; }
+
+.pagination li a {
+  border: none !important;
+  color: #333333;
+  font-size: 14px;
+  font-weight: 400; }
 
 .refer {
   margin-top: 50px; }
