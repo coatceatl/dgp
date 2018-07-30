@@ -180,6 +180,9 @@ a.list-group-item {
 .main-text {
   margin-bottom: 5px;
 }
+.no-padding {
+  margin-left: -15px;
+}
 .main-heading {
   font-size: 15px;
   font-weight: 700;
@@ -189,4 +192,11 @@ a.list-group-item {
 }
 .main-list {
   padding-left: 15px !important;
+}
+.main-link {
+  color: #820c2f !important;
+  text-decoration: underline;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
 }
