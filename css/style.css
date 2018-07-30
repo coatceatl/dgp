@@ -745,6 +745,12 @@ td {
   vertical-align: middle !important;
   text-align: center; }
 
+th {
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333; }
+
 .word-break {
   white-space: normal;
   word-break: break-word; }
@@ -754,6 +760,13 @@ td {
 
 .td-body {
   margin-left: 75px; }
+
+.table-gray {
+  background-color: #c0c0c0;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
 
 .sources {
   margin-left: 135px;
