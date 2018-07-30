@@ -134,10 +134,35 @@ a.list-group-item {
   }
 }
 .pagination {
-  li a {
-    border: none !important;
-    color: #333333;
-    font-size: 14px;
-    font-weight: 400; 
+  padding-left: 21px !important;
+  vertical-align: bottom;
+
+  li {
+    a {
+      border: none !important;
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      margin-left: 8px !important;
+      text-decoration: underline;
+
+      span {
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .active {
+    a {
+      color: #333;
+      font-weight: 700;
+      background-color: #fff !important;
+      text-decoration: underline;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
   }
 }
