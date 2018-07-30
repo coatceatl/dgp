@@ -206,3 +206,25 @@ input[type='radio']:checked + label {
   border-top: 1px solid rgba(130,12,47,.1);
   padding-top: 26px;
 }
+.tab-content {
+  position: relative;
+}
+.tab-pane {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.controls {
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+}
+.prev,
+.next {
+  position: absolute;
+  background-color: #f6f6f6;
+  height: 100%;
+  border: none;
+}
+.next {
+  right: 0;
+}
