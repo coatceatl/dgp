@@ -781,9 +781,12 @@ th {
 .table-link {
   font-size: 13px;
   font-weight: 700;
-  color: #333;
+  color: #333 !important;
   text-decoration: underline;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-left: 7px !important; }
+  .table-link:hover {
+    color: #333 !important; }
 
 .filter-btn {
   height: 35px; }
@@ -791,6 +794,10 @@ th {
 .filter input,
 .filter select {
   font-size: 13px; }
+
+.price {
+  padding-left: 0;
+  padding-right: 7px; }
 
 .sources {
   margin-left: 135px;
