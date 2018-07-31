@@ -158,6 +158,8 @@ th {
   display: inline-block;
   vertical-align: middle;
   height: 40px;
+  position: relative;
+  bottom: 2px;
 }
 .file_upload input[type=file]{
   position: absolute;
@@ -169,7 +171,6 @@ th {
     float: right;
     box-sizing: border-box;
     background-color: #820c2f !important;
-    border: 1px solid #820c2f;
     overflow: hidden;
     white-space: normal;
     height: 40px !important;
@@ -180,12 +181,14 @@ th {
 
     .form-mark {
       margin-right: 5px !important;
+      margin-bottom: -4px;
     }
-  &:hover,
-  &:active {
-    color: #fff !important;
+
+    &:hover,
+    &:active {
+      color: #fff !important;
+    }
   }
-}
 }
 
 
