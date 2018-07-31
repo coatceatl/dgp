@@ -160,7 +160,7 @@
 
     <section class='main'>
       <div class='container-fluid'>
-        <div class='row col-eq'>
+        <div class='row'>
 
           <div class='col-md-10'>
             <div class='row'>
@@ -170,50 +170,49 @@
                   <li class='active'><a href='#'>Расписание приема врачей</a></li>
                 </ol>
                 <h2 class='heading'>Расписание приема врачей</h2>
+              </div>
 
+              <div class='col-md-12'>
                 <div class='filter'>
-                  <form class='form-inline'>
-                    <div class='form-group'>
-                      <label class='sr-only' for='filter1'>ФИО</label>
-                      <input type='text' class='form-control' id='filter1' placeholder='Ф.И.О.'>
+                  <div class='row'>
+                    <div class='col-xs-3'>
+                      <input type='text' class='form-control table-form' id='filter1' placeholder='Ф.И.О.'>
                     </div>
-                    <div class='form-group'>
-                      <label class='sr-only' for='filter2'>Специальность</label>
-                      <input type='text' class='form-control' id='filter2' placeholder='Специальность'>
+                    <div class='col-xs-2'>
+                      <input type='text' class='form-control table-form' id='filter2' placeholder='Специальность'>
                     </div>
-                    <div class='form-group'>
-                      <label for='filter3'></label>
-                      <select id='filter3' class='form-control'>
+                    <div class='col-xs-2'>
+                      <select id='filter3' class='form-control table-form'>
                         <option selected>Название отдела</option>
                         <option></option>
                         <option></option>
                         <option></option>
                       </select>
                     </div>
-                    <div class='form-group'>
-                      <label class='sr-only' for='filter4'>Кабинет</label>
-                      <input type='text' class='form-control' id='filter4' placeholder='Кабинет'>
+                    <div class='col-xs-1'>
+                      <input type='text' class='form-control table-form' id='filter4' placeholder='Кабинет'>
                     </div>
-                    <div class='form-group'>
-                      <label for='filter5'></label>
-                      <select id='filter5' class='form-control'>
+                    <div class='col-xs-1'>
+                      <select id='filter5' class='form-control table-form'>
                         <option selected>Цена от</option>
                         <option></option>
                         <option></option>
                       </select>
                     </div>
-                    <div class='form-group'>
-                      <label for='filter6'></label>
-                      <select id='filter6' class='form-control'>
+                    <div class='col-xs-1'>
+                      <select id='filter6' class='form-control table-form'>
                         <option selected>Цена до</option>
                         <option></option>
                         <option></option>
                       </select>
                     </div>
-                    <button type='submit' class='form-btn table-btn'>Найти</button>
-                  </form>
+                    <button type='submit' class='form-btn table-btn filter-btn'>Найти</button>
+                    <a class='table-link' href='#'>Отмена</a>
+                  </div>
                 </div>
+              </div>
 
+              <div class='table-responsive col-md-12'>
                 <table class='table table-bordered'>
                   <thead>
                     <tr>
@@ -447,11 +446,10 @@
                         </button>
                       </td>
                     </tr>
-
                   </tbody>
                 </table>
-
               </div>
+
             </div>
           </div>
 
