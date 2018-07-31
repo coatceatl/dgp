@@ -100,6 +100,7 @@ a {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 13px;
   color: #fff;
   border: none;
   border-radius: 15px;
@@ -148,6 +149,11 @@ a {
   padding-right: 0px;
   height: 44px;
   width: 139px;
+  background-color: #ab3558 !important;
+
+  &:hover {
+    background-color: #b54365 !important;
+  }
 }
 @media (max-width: 1440px) {
   .navbar__header,

@@ -90,6 +90,7 @@ a {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  line-height: 13px;
   color: #fff;
   border: none;
   border-radius: 15px; }
@@ -132,7 +133,10 @@ a {
   padding-left: 6px;
   padding-right: 0px;
   height: 44px;
-  width: 139px; }
+  width: 139px;
+  background-color: #ab3558 !important; }
+  .table-btn:hover {
+    background-color: #b54365 !important; }
 
 @media (max-width: 1440px) {
   .navbar__header,
@@ -789,7 +793,10 @@ th {
     color: #333 !important; }
 
 .filter-btn {
-  height: 35px; }
+  height: 35px;
+  background-color: #820c2f !important; }
+  .filter-btn:hover {
+    background-color: #911b3e !important; }
 
 .filter input,
 .filter select {
@@ -835,11 +842,23 @@ th {
 
 .feedback-btn {
   margin-top: 20px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background-color: #820c2f !important; }
+  .feedback-btn:hover {
+    background-color: #911b3f !important; }
 
 .careers-block {
   border: 1px solid #ff8288;
-  padding: 19px 0 20px 21px; }
+  padding: 19px 0 20px 21px;
+  margin-top: 20px; }
+  .careers-block button {
+    padding-left: 15px !important;
+    margin-right: 20px;
+    width: 130px !important;
+    height: 40px; }
+    .careers-block button .form-mark {
+      float: left;
+      margin-right: 0 !important; }
 
 .careers-body {
   margin-bottom: 20px; }
@@ -861,6 +880,33 @@ th {
   display: imline-block;
   float: left;
   margin-right: 29px; }
+
+.file-input {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px; }
+
+.file_upload input[type=file] {
+  position: absolute;
+  top: 0;
+  opacity: 0; }
+
+.file_upload .button {
+  float: right;
+  box-sizing: border-box;
+  background-color: #820c2f !important;
+  border: 1px solid #820c2f;
+  overflow: hidden;
+  white-space: normal;
+  height: 40px !important;
+  width: 130px !important;
+  color: #fff !important;
+  line-height: 1px;
+  font-size: 12px; }
+  .file_upload .button .form-mark {
+    margin-right: 5px !important; }
+  .file_upload .button:hover, .file_upload .button:active {
+    color: #fff !important; }
 
 .sources {
   margin-left: 135px;
