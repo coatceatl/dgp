@@ -189,7 +189,6 @@
                        id='inputPhone'
                        name='phone'
                        placeholder='Телефон'
-                       pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
                        required>
                   </div>
                   <div class='form-group feedback'>
@@ -204,16 +203,17 @@
                       <img id='img-captcha' class='captcha' src='images/icons/captcha.png'>
                     </div>
                     <div class='col-md-4 form-horizontal has-feedback'>
-                      <label id='label-captcha' for='captcha' class='control-label'></label>
+                      <label for='captcha' class='control-label'></label>
                       <input id='text-captcha' name='captcha' type='text' class='form-control' required placeholder='Введите символы'>
-                      <a class='feedback-link' href='#'>Не вижу картинку</a>
+                      <div id='reload-captcha'>
+                        <a class='feedback-link' href='#'>Не вижу картинку</a>
+                      </div>
                     </div>
+                    <button type='submit' class='form-btn feedback-btn'>
+                      <img class='form-mark' src='images/icons/mark.png' alt=''>Отправить
+                    </button>
+                    <p class='main-text'>Поля, отмеченные * являются обязательными для заполнения, проверяйте введенную информацию.</p>
                   </div>
-
-                  <button type='submit' class='form-btn feedback-btn'>
-                    <img class='form-mark' src='images/icons/mark.png' alt=''>Отправить
-                  </button>
-                  <p class='main-text'>Поля, отмеченные * являются обязательными для заполнения, проверяйте введенную информацию.</p>
                 </form>
               </div>
             </div>
