@@ -62,3 +62,47 @@ th {
   padding-left: 0;
   padding-right: 7px;
 }
+.feedback {
+  width: 100%;
+  margin-bottom: 0;
+
+  input,
+  textarea {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    opacity: 0.6;
+    border-radius: 15px;
+    border: 1px solid #d9d9d9;
+  }
+}
+.captcha {
+  margin-top: 15px;
+}
+.feedback-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #820c2f;
+  text-decoration: underline;
+
+  &:hover {
+    color: #820c2f !important;
+  }
+}
+.has-feedback {
+  input {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    opacity: 0.6;
+    border-radius: 15px;
+    border: 1px solid #d9d9d9;
+    width: 145px;
+    height: 30px;
+    padding-right: 0 !important;
+  }
+}
+.feedback-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

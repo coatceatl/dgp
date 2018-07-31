@@ -172,30 +172,48 @@
                 <h2 class='heading'>Обратная связь</h2>
               </div>
 
-              <div class='col-md-6'>
-                <form>
-                  <div class='form-group'>
-                    <label for='inputName'>Name</label>
-                    <input type='text' class='form-control' id='inputName' placeholder='Ф.И.О.' required>
+              <div class='col-md-5'>
+                <form id='contact-form' method='post'>
+                  <div class='form-group feedback'>
+                    <label for='inputName'></label>
+                    <input type='text' class='form-control' id='inputName' name='name' placeholder='Ф.И.О.' required>
                   </div>
-                  <div class='form-group'>
-                    <label for='inputEmail'>Name</label>
-                    <input type='email' class='form-control' id='inputEmail' placeholder='Email' required>
+                  <div class='form-group feedback'>
+                    <label for='inputEmail'></label>
+                    <input type='email' class='form-control' id='inputEmail' name='email' placeholder='Email' required>
                   </div>
-                  <div class='form-group'>
-                    <label for='inputPhone'>Name</label>
+                  <div class='form-group feedback'>
+                    <label for='inputPhone'></label>
                     <input type='tel'
                        class='form-control'
                        id='inputPhone'
+                       name='phone'
                        placeholder='Телефон'
                        pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
                        required>
                   </div>
-                  <div class='form-group'>
+                  <div class='form-group feedback'>
                     <label for='inputTextarea'></label>
-                    <textarea class='form-control' id='inputTextarea' rows='6' placeholder='Сообщение'></textarea>
+                    <textarea class='form-control' id='inputTextarea' rows='6' name='message' placeholder='Сообщение'></textarea>
                   </div>
-                  <button type='submit' class='btn btn-primary'>Login</button>
+                  <p class='main-text'>Пожалуйста, введите символы с картинки:</p>
+
+                  <!--  нужно изменить ссылку!!!! -->
+                  <div class='row'>
+                    <div class='col-md-4'>
+                      <img id='img-captcha' class='captcha' src='images/icons/captcha.png'>
+                    </div>
+                    <div class='col-md-4 form-horizontal has-feedback'>
+                      <label id='label-captcha' for='captcha' class='control-label'></label>
+                      <input id='text-captcha' name='captcha' type='text' class='form-control' required placeholder='Введите символы'>
+                      <a class='feedback-link' href='#'>Не вижу картинку</a>
+                    </div>
+                  </div>
+
+                  <button type='submit' class='form-btn feedback-btn'>
+                    <img class='form-mark' src='images/icons/mark.png' alt=''>Отправить
+                  </button>
+                  <p class='main-text'>Поля, отмеченные * являются обязательными для заполнения, проверяйте введенную информацию.</p>
                 </form>
               </div>
             </div>
