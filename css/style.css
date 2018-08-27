@@ -848,23 +848,31 @@ th {
   .feedback-link:hover {
     color: #820c2f !important; }
 
-.has-feedback input {
-  font-size: 15px;
-  font-weight: 400;
-  color: #888;
-  opacity: 0.6;
-  border-radius: 15px;
-  border: 1px solid #d9d9d9;
-  width: 145px;
-  height: 30px;
-  padding-right: 0 !important; }
+.has-feedback {
+  text-align: center;
+  margin-left: -20px; }
+  .has-feedback input {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+    opacity: 0.6;
+    border-radius: 15px;
+    border: 1px solid #d9d9d9;
+    width: 145px;
+    height: 30px;
+    padding-right: 0 !important;
+    margin-left: 7px; }
 
 .feedback-btn {
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 15px;
   background-color: #820c2f !important; }
   .feedback-btn:hover {
     background-color: #911b3f !important; }
+
+.feedback-txt {
+  margin-left: 15px; }
 
 .careers-block {
   border: 1px solid #ff8288;
