@@ -256,6 +256,9 @@ hr {
   width: 100%;
   background-color: #fff; }
 
+.menu {
+  width: 100%; }
+
 .navbar-menu-dropdown {
   width: 100%; }
   .navbar-menu-dropdown li {
