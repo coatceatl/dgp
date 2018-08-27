@@ -248,3 +248,21 @@ hr {
   background-color: #820c2f;
   margin-left: 0;
 }
+.stickytop .menu-item a {
+  color: #fff;
+  &:hover,
+  &:focus {
+    background-color: #911b3e !important;
+  }
+  &:hover,
+  &:focus {
+    background-color: #911b3e !important;
+  }
+}
+.stickytop .menu-item a img.icon-black {
+    display: none;
+}
+.stickytop .menu {
+  margin-left: 135px !important;
+  margin-right: 135px !important;
+}

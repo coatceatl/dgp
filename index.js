@@ -16,10 +16,10 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
     if($(this).scrollTop() >= 126) {
-      $('.navbar-menu').addClass('stickytop');
+      $('#top-menu').addClass('stickytop');
     }
     else{
-      $('.navbar-menu').removeClass('stickytop');
+      $('#top-menu').removeClass('stickytop');
     }
   });
 

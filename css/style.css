@@ -351,6 +351,20 @@ hr {
   background-color: #820c2f;
   margin-left: 0; }
 
+.stickytop .menu-item a {
+  color: #fff; }
+  .stickytop .menu-item a:hover, .stickytop .menu-item a:focus {
+    background-color: #911b3e !important; }
+  .stickytop .menu-item a:hover, .stickytop .menu-item a:focus {
+    background-color: #911b3e !important; }
+
+.stickytop .menu-item a img.icon-black {
+  display: none; }
+
+.stickytop .menu {
+  margin-left: 135px !important;
+  margin-right: 135px !important; }
+
 .hero {
   position: relative; }
 
@@ -452,6 +466,9 @@ a.list-group-item {
   margin-left: 30px;
   width: calc(50% - 40px); }
 
+.margin-btn {
+  margin-left: 15px; }
+
 .form input,
 .form button {
   margin-top: 10px; }
@@ -489,7 +506,7 @@ a.list-group-item {
 .sidebar-caret {
   position: absolute;
   top: 18px;
-  right: 31px; }
+  right: 2px; }
 
 .border {
   border-right: 1px solid rgba(0, 0, 0, 0.15); }
@@ -981,12 +998,16 @@ th {
 .carousel-control-sources-left {
   position: absolute;
   left: -15px !important;
-  top: 15%; }
+  top: 10%; }
 
 .carousel-control-sources-right {
   position: absolute;
   right: 0px !important;
-  top: 15%; }
+  top: 10%; }
+
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto; }
 
 .map {
   position: relative;

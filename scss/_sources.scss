@@ -46,12 +46,16 @@
 .carousel-control-sources-left {
   position: absolute;
   left: -15px !important;
-  top: 15%;
+  top: 10%;
 }
 .carousel-control-sources-right {
   position: absolute;
   right: 0px !important;
-  top: 15%;
+  top: 10%;
+}
+.img-responsive {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
