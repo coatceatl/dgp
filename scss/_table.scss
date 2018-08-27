@@ -31,6 +31,7 @@ th {
 }
 .table-form {
   border: 1px solid #d9d9d9;
+  border-radius: 10px;
   height: 37px;
   color: #888;
   font-size: 14px;
@@ -62,6 +63,13 @@ th {
   select {
     font-size: 13px;
   }
+}
+.filter-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #f6f6f6;
 }
 .price {
   padding-left: 0;

@@ -139,8 +139,7 @@
             </li>
             <li class='menu-item' id='search'>
               <a href='#'>
-                <img class='icon-black' src='images/icons/search.png' alt=''>
-                <img class='icon-white' src='images/icons/search-white.png' alt=''>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mx-3"><circle cx="10.5" cy="10.5" r="7.5"></circle><line x1="21" y1="21" x2="15.8" y2="15.8"></line></svg>
               </a>
             </li>
           </ul>
@@ -174,7 +173,7 @@
 
               <div class='col-md-12'>
                 <div class='filter'>
-                  <div class='row'>
+                  <div class='row filter-header'>
                     <div class='col-md-3'>
                       <input type='text' class='form-control table-form' id='filter1' placeholder='Ф.И.О.'>
                     </div>
@@ -184,26 +183,26 @@
                     <div class='col-xs-2'>
                       <select id='filter3' class='form-control table-form'>
                         <option selected>Название отдела</option>
-                        <option></option>
-                        <option></option>
-                        <option></option>
+                        <option>отдел 1</option>
+                        <option>отдел 2</option>
+                        <option>отдел 3</option>
                       </select>
                     </div>
                     <div class='col-xs-1'>
                       <input type='text' class='form-control table-form' id='filter4' placeholder='Кабинет'>
                     </div>
                     <div class='col-xs-1'>
-                      <select id='filter5' class='form-control table-form price'>
+                      <select id='filter5' class='custom-select my-1 mr-sm-2 form-control table-form price'>
                         <option selected>Цена от</option>
-                        <option></option>
-                        <option></option>
+                        <option>100</option>
+                        <option>1000</option>
                       </select>
                     </div>
                     <div class='col-xs-1'>
                       <select id='filter6' class='form-control table-form price'>
                         <option selected>Цена до</option>
-                        <option></option>
-                        <option></option>
+                        <option>500</option>
+                        <option>5000</option>
                       </select>
                     </div>
                     <button type='submit' class='form-btn table-btn filter-btn'>Найти</button>
